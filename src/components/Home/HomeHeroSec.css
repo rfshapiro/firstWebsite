@@ -1,0 +1,34 @@
+.container-fluid{
+  padding: 0;
+}
+.bg-video-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  background: url(https://www.oorah.org/img/slideshow-placeholder.jpg) no-repeat center center/cover;
+}
+video{
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  margin: 0;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(15.71, 2.83, 0, 0.59) 2%, rgba(21.08, 3.79, 0, 0.13) 18%, rgba(24.02, 4.32, 0, 0) 40%, rgba(36.65, 6.60, 0, 0.13) 48%, rgba(6.51, 1.17, 0, 0.47) 66%, rgba(0, 0, 0, 0.75) 84%);
+  z-index: 2;
+}
+.intro-text{
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  top: 55%;
+  z-index: 3;
+}
